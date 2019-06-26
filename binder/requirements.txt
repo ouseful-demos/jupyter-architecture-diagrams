@@ -1,3 +1,5 @@
+jupytext
+
 graphviz
 
 ## Block Diagram generators - requires inkscape for SVG output
