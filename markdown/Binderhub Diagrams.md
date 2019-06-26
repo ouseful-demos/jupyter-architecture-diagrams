@@ -77,7 +77,8 @@ Some initial sketches of architecture, activity and sequence diagrams relating t
 ```
 
 ```python
-seqdiag {
+%%seqdiag 
+{
   // simple notation
   browser  => binderhub [label = "Make request"] {
 
@@ -118,9 +119,9 @@ browser => notebookserver [label = "Execute nb code"]
 
 ```python
 from IPython.display import SVG
-SVG('basic_arch_binder.svg')
+SVG('../svg/basic_arch_binder.svg')
 
-#To edit, see also the original drawio file: basic_arch_binder.drawio
+#To edit, see also the original drawio file: ../drawio/basic_arch_binder.drawio
 ```
 
 ```python
