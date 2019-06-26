@@ -77,7 +77,7 @@ Some initial sketches of architecture, activity and sequence diagrams relating t
 ```
 
 ```python
-%%seqdiag 
+%%seqdiag
 {
   // simple notation
   browser  => binderhub [label = "Make request"] {
@@ -111,10 +111,6 @@ browser => notebookserver [label = "Execute nb code"]
 }
   
 }
-```
-
-```python
-!ls
 ```
 
 ```python
