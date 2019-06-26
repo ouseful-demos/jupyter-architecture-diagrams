@@ -1,0 +1,3 @@
+mkdir -p .jupyter
+echo 'c.NotebookApp.contents_manager_class = "jupytext.TextFileContentsManager"' >> .jupyter/jupyter_notebook_config.py
+echo 'c.ContentsManager.default_jupytext_formats = "notebooks//ipynb,py//py,markdown//md"' >> .jupyter/jupyter_notebook_config.py
