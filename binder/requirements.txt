@@ -1,4 +1,4 @@
-graphiviz
+graphviz
 
 ## Block Diagram generators - requires inkscape for SVG output
 blockdiag
