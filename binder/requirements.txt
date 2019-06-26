@@ -1,0 +1,9 @@
+graphiviz
+
+## Block Diagram generators - requires inkscape for SVG output
+blockdiag
+seqdiag
+actdiag
+nwdiag
+
+git+https://github.com/innovationOUtside/ipython_magic_blockdiag.git
