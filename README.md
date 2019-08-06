@@ -44,6 +44,8 @@ Alternatively, from the JupyterLab file browser, in the `drawio` directory, doub
 From draw.io [issues](https://github.com/jgraph/drawio/issues/384#issuecomment-518533528) / [docs](https://j2r2b.github.io/2019/08/06/drawio-cli.html):
 
 > The drawio CLI also works with folders and the `-f` flag can be used to specify the format. To convert all the files in the files/ folder to png:
-> `$ mkdir out`
-> `$ draw.io -x -f png -o out/ files/`
-> `See [Draw.io from the command line](https://j2r2b.github.io/2019/08/06/drawio-cli.html) (In particular the "Convert multiple files" section at the end of the page)`
+> ```
+> $ mkdir out
+> $ draw.io -x -f png -o out/ files/
+> ```
+> See [Draw.io from the command line](https://j2r2b.github.io/2019/08/06/drawio-cli.html) (In particular the "Convert multiple files" section at the end of the page)
